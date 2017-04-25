@@ -49,5 +49,5 @@ For prometheus, reverse proxy for NGINX that has .htaccess files.
 | Metrics and Events Correlation | [Grafana + Annotations](http://docs.grafana.org/reference/annotations/) |
 | Host Health Metrics in Real-time | ... all monitoring solutions, hopefully. | 
 | Docker container processes | Prometheus + Kubernetes service discovery, sysdig |
-| Inventory | OSQuery |
+| Inventory | OSQuery + [Doorman](https://github.com/mwielgoszewski/doorman) or ELK |
 | AWS Services | Prometheus + AWS Exporter (It's all CloudWatch) |
