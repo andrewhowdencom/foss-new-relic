@@ -4,6 +4,10 @@
 
 Get the insight into your infrastructure that the most expensive New Relic plan affords, but when you can't afford it.
 
+## Non Goals
+
+Think too much about a decent alerting infrastructure. This is more about replicating an existing toolchain with it's opinions, those opinions can be later modified.
+
 ## Concens
 
 At the minute, the UI for all this FOSS stuff sucks. Grafana is pretty good, but Prometheus is rough. ELK is OK. None of them talk to each other very well -- you'd need to create links between the services yourself in the implementation, or create some sort of portal.
@@ -58,5 +62,5 @@ For prometheus, reverse proxy for NGINX that has .htaccess files.
 | Host Health Metrics in Real-time | ... all monitoring solutions, hopefully. | 
 | Docker container processes | Prometheus + Kubernetes service discovery, sysdig |
 | Inventory | OSQuery + [Doorman](https://github.com/mwielgoszewski/doorman) or ELK |
-| AWS Services | Prometheus + AWS Exporter (It's all CloudWatch) |
-| Cloud Native | (Prometheus EC2 service discovery)[https://prometheus.io/docs/operating/configuration/#<ec2_sd_config>]
+| AWS Services Integrations | Prometheus + [AWS CloudWatch exporter](https://github.com/prometheus/cloudwatch_exporter) |
+| Cloud Native | [Prometheus EC2 service discovery](https://prometheus.io/docs/operating/configuration/#<ec2_sd_config>)|
