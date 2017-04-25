@@ -1,5 +1,13 @@
 # FOSS New Relic
 
+## Goals
+
+Get the insight into your infrastructure that the most expensive New Relic plan affords, but when you can't afford it.
+
+## Concens
+
+At the minute, the UI for all this FOSS stuff sucks. Grafana is pretty good, but Prometheus is rough. ELK is OK. None of them talk to each other very well -- you'd need to create links between the services yourself in the implementation, or create some sort of portal.
+
 ## Features
 
 ### Application Monitoring
