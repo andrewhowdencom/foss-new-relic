@@ -51,3 +51,4 @@ For prometheus, reverse proxy for NGINX that has .htaccess files.
 | Docker container processes | Prometheus + Kubernetes service discovery, sysdig |
 | Inventory | OSQuery + [Doorman](https://github.com/mwielgoszewski/doorman) or ELK |
 | AWS Services | Prometheus + AWS Exporter (It's all CloudWatch) |
+| Cloud Native | (Prometheus EC2 service discovery)[https://prometheus.io/docs/operating/configuration/#<ec2_sd_config>]
